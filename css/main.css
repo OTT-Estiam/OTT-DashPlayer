@@ -1,0 +1,29 @@
+@font-face {
+    font-family: Bluefish;
+    src: url("../fonts/Bluefish.otf");
+}
+
+html {
+    background-color: #ADADAD;
+}
+video {
+   width: 640px;
+   height: 360px;
+
+}
+h1 {
+    color: #0971B2;
+    font-size: 5em;
+    font-family: Bluefish;
+    text-align: center;
+}
+.player {
+
+}
+
+.container {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+
+}
